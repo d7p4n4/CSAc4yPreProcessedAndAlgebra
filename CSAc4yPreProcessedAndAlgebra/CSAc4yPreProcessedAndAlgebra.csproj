@@ -31,11 +31,14 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="CSAc4yEmptyLibrary">
-      <HintPath>C:\Library\c#\CSAc4yEmptyLibrary.dll</HintPath>
+    <Reference Include="CSAc4yIdentificationAlgebraLibrary">
+      <HintPath>C:\Library\c#\CSAc4yIdentificationAlgebraLibrary.dll</HintPath>
     </Reference>
-    <Reference Include="CSAc4yMetaClassLibrary">
-      <HintPath>C:\Library\c#\CSAc4yMetaClassLibrary.dll</HintPath>
+    <Reference Include="CSAc4yIdentificationBaseAlgebraLibrary">
+      <HintPath>C:\Library\c#\CSAc4yIdentificationBaseAlgebraLibrary.dll</HintPath>
+    </Reference>
+    <Reference Include="CSAc4yIdentificationFinalLibrary">
+      <HintPath>C:\Library\c#\CSAc4yIdentificationFinalLibrary.dll</HintPath>
     </Reference>
     <Reference Include="GuidLibrary">
       <HintPath>C:\Library\c#\GuidLibrary.dll</HintPath>
@@ -51,12 +54,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Algebra\Ac4yAlgebra.cs" />
-    <Compile Include="Algebra\Ac4yIdentificationAlgebra.cs" />
-    <Compile Include="Algebra\Ac4yIdentificationBaseAlgebra.cs" />
     <Compile Include="Algebra\Ac4yObjectAlgebra.cs" />
     <Compile Include="Algebra\Ac4yPersistentAlgebra.cs" />
-    <Compile Include="PreProcessed\Ac4yIdentificationBasePreProcessed.cs" />
-    <Compile Include="PreProcessed\Ac4yIdentificationPreProcessed.cs" />
     <Compile Include="PreProcessed\Ac4yObjectPreProcessed.cs" />
     <Compile Include="PreProcessed\Ac4yPersistentPreProcessed.cs" />
     <Compile Include="PreProcessed\Ac4yPreProcessed.cs" />
